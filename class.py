@@ -1,12 +1,16 @@
 class Dog:
+
   def __init__(self, name, age):
     self.name = name
     self.age = age
-    
+
   def sit(self):
-    #Ininitalize name and age attributes
     print(f"{self.name} is now sitting.")
-    
+
   def roll_over(self):
-    #Simulate rolling over in response to a command
-    print(f"{self.name} rolled over!")
+    print(f"{self.name} rolled over.")
+
+my_dog = Dog("Auli'i", 2)
+
+print(f"My dog's name is {my_dog.name}")
+print(f"My dog is {my_dog.age} years old.")
