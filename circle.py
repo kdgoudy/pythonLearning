@@ -1,6 +1,7 @@
 #Creating a simple circle with Python turtle
 import turtle
 
+#Settings for turtle
 screen = turtle.Screen()
 screen.bgcolor("blue")
 screen.title("Drawing Circles")
