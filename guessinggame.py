@@ -1,3 +1,4 @@
+#Creating the magic word
 secret_word = "wolf"
 guess = ""
 
